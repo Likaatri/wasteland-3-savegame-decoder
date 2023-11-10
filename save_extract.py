@@ -52,5 +52,5 @@ def savefile():
 # uncomment this to create the ..._editable file.
 #loadfile()
 
-# uncomment this to conver the ..._editable file to the ..._new file.
+# uncomment this to convert the ..._editable file to the ..._new file.
 #savefile()
