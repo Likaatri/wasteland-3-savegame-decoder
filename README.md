@@ -3,7 +3,7 @@
 ## Features
 
  * Extracts a Wasteland 3 save file into a human readable xml file.
- * Repacks the edited file pack to a WL3 save file.
+ * Repacks the edited file back to a WL3 save file.
 
 ## Requirements
 
@@ -15,10 +15,10 @@
  2. In save_extract.py: Replace filename (without .xml ending) and uncomment loadfile().
  3. Run the python script. A decoded file _SAVEGAMENAME_.xml_editable
  is created.
- 4. Edit _SAVEGAMENAME_.xml_editable
- 5. In save_extract.py: comment out loadfile() and uncomment savefile()
- 6. Run the script again, which creates SAVEGAMENAME_.xml_new
- 7. Replace the original save file with this new file (make a backup first)
+ 4. Edit _SAVEGAMENAME_.xml_editable.
+ 5. In save_extract.py: comment out loadfile() and uncomment savefile().
+ 6. Run the script again, which creates _SAVEGAMENAME_.xml_new.
+ 7. Replace the original save file with this new file (make a backup first).
 
 ## Credits
 
